@@ -7,7 +7,7 @@ import service.Knight;
 
 public class Junit {
     @Test
-    public void doIt(){
+    public void AopTest() {
         ApplicationContext context =
                 new ClassPathXmlApplicationContext("spring-config.xml");
         Knight knight = (Knight) context.getBean("knight");
