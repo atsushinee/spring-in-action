@@ -1,5 +1,6 @@
 package autowire;
 
+import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 
 //注解表明该类会作为组件类，并告知Spring要为这个类创建bean
